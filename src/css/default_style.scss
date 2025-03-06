@@ -1,0 +1,52 @@
+:root {
+  --ifm-navbar-height: 74px;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #131315;
+  // --ifm-footer-color: var(--ifm-footer-link-color);
+  // --ifm-footer-link-color: var(--ifm-color-secondary);
+  // --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.navbar {
+  height: 74px;
+  padding: 0 15px;
+  // backdrop-filter: blur(10px);
+  // background: transparent;
+  .navbar__brand {
+    height: 42px;
+    margin-right: 0;
+    .navbar__logo {
+      height: 42px;
+    }
+  }
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.hash-link,
+.hash-link:hover {
+  text-decoration: underline;
+}
+
+.button--primary {
+  height: 50px;
+  background: linear-gradient(rgb(90, 194, 124) 0%, rgb(178, 226, 53) 100%);
+  border: none;
+}
+.button--primary:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
